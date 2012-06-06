@@ -1,5 +1,5 @@
 (ns dojo-coding-1.core
-  (:use [midje-sweet]))
+  (:use [midje.sweet]))
 
 (defn graph-lines ""
   [])
@@ -16,3 +16,4 @@
                                    "\"node2\" -> \"node1\";"
                                    "\"node2\" -> \"node3\";"
                                    "}"] :in-any-order))
+
